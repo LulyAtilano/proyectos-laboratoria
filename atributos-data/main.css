@@ -1,0 +1,25 @@
+
+body {
+	text-align: center;
+}
+
+.imagenes li {
+	cursor: pointer;
+	display: inline-block;
+	list-style: none;
+	margin: 20px;
+}
+
+.imagenes li img {
+	height: 10em;
+	width: 10em;
+}
+
+.informacion p {
+	display: none;
+}
+
+.informacion p.active {
+	display: block;
+	font-style: italic;
+}
